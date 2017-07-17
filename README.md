@@ -1,7 +1,13 @@
 # R_AND_DVC
-Data version control on R example
+Codes were made for testing purposes - Data version control on R example.
+R example was made in R version 3.4.0 (2017-04-21), 64bit version, on linux machine 
 
-For testing purposes R code is created. 
+   R version 3.4.0 (2017-04-21) -- "You Stupid Darkness"
+   Copyright (C) 2017 The R Foundation for Statistical Computing
+   Platform: x86_64-pc-linux-gnu (64-bit)
+
+Following R codes were created:
+
 1) requirements.R will install necessary packages into local computer
 Run this job only once, you need to install packages that are used in this project (Matrix, MASS, glmnet etc).
 
