@@ -49,7 +49,7 @@ tok_fun = word_tokenizer
 it_train = itoken(df_train$text,  preprocessor = prep_fun,  tokenizer = tok_fun,  ids = df_train$ID, progressbar = FALSE)
 vocab = create_vocabulary(it_train,stopwords = stop_words)
 
-pruned_vocab <- prune_vocabulary(vocab, max_number_of_terms=5000)
+pruned_vocab <- prune_vocabulary(vocab, vocab_term_max=5000)
 
 #str(vocab$vocab$terms)
 #str(pruned_vocab$vocab$terms_counts)
