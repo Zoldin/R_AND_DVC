@@ -2,6 +2,7 @@
     #I need two inputs - train and test data set - csv format
     #       two outputs - train and text matrices 
 
+library(dplyr)
 library(text2vec)
 library(MASS)
 library(Matrix)
